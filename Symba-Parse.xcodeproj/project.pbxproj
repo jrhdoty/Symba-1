@@ -13,6 +13,21 @@
 		7A6FCE29199FD4C2002CB6B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6FCE27199FD4C2002CB6B8 /* Main.storyboard */; };
 		7A6FCE2B199FD4C2002CB6B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6FCE2A199FD4C2002CB6B8 /* Images.xcassets */; };
 		7A6FCE37199FD4C2002CB6B8 /* Symba_ParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6FCE36199FD4C2002CB6B8 /* Symba_ParseTests.swift */; };
+		7A6FCE41199FD5D5002CB6B8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE40199FD5D5002CB6B8 /* Parse.framework */; };
+		7A6FCE43199FD5F2002CB6B8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE42199FD5F2002CB6B8 /* AudioToolbox.framework */; };
+		7A6FCE45199FD5FA002CB6B8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE44199FD5FA002CB6B8 /* CFNetwork.framework */; };
+		7A6FCE47199FD600002CB6B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE46199FD600002CB6B8 /* CoreGraphics.framework */; };
+		7A6FCE49199FD607002CB6B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE48199FD607002CB6B8 /* CoreLocation.framework */; };
+		7A6FCE4B199FD613002CB6B8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE4A199FD613002CB6B8 /* libz.dylib */; };
+		7A6FCE4D199FD619002CB6B8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE4C199FD619002CB6B8 /* MobileCoreServices.framework */; };
+		7A6FCE4F199FD620002CB6B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE4E199FD620002CB6B8 /* QuartzCore.framework */; };
+		7A6FCE51199FD625002CB6B8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE50199FD625002CB6B8 /* Security.framework */; };
+		7A6FCE53199FD62C002CB6B8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE52199FD62C002CB6B8 /* StoreKit.framework */; };
+		7A6FCE55199FD63B002CB6B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE54199FD63B002CB6B8 /* SystemConfiguration.framework */; };
+		7A6FCE5E199FDCEB002CB6B8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6FCE5D199FDCEB002CB6B8 /* FacebookSDK.framework */; };
+		7A6FCE60199FEB19002CB6B8 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6FCE5F199FEB19002CB6B8 /* ChatsViewController.swift */; };
+		7A6FCE62199FF0ED002CB6B8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6FCE61199FF0ED002CB6B8 /* ChatViewController.swift */; };
+		7A6FCE64199FF10F002CB6B8 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6FCE63199FF10F002CB6B8 /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,22 @@
 		7A6FCE30199FD4C2002CB6B8 /* Symba-ParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Symba-ParseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6FCE35199FD4C2002CB6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A6FCE36199FD4C2002CB6B8 /* Symba_ParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symba_ParseTests.swift; sourceTree = "<group>"; };
+		7A6FCE40199FD5D5002CB6B8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../SDKs/Parse.framework; sourceTree = "<group>"; };
+		7A6FCE42199FD5F2002CB6B8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7A6FCE44199FD5FA002CB6B8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7A6FCE46199FD600002CB6B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A6FCE48199FD607002CB6B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7A6FCE4A199FD613002CB6B8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7A6FCE4C199FD619002CB6B8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7A6FCE4E199FD620002CB6B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A6FCE50199FD625002CB6B8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7A6FCE52199FD62C002CB6B8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7A6FCE54199FD63B002CB6B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7A6FCE56199FD6A8002CB6B8 /* Symba-Parse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Symba-Parse-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A6FCE5D199FDCEB002CB6B8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		7A6FCE5F199FEB19002CB6B8 /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		7A6FCE61199FF0ED002CB6B8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7A6FCE63199FF10F002CB6B8 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +74,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6FCE5E199FDCEB002CB6B8 /* FacebookSDK.framework in Frameworks */,
+				7A6FCE55199FD63B002CB6B8 /* SystemConfiguration.framework in Frameworks */,
+				7A6FCE53199FD62C002CB6B8 /* StoreKit.framework in Frameworks */,
+				7A6FCE51199FD625002CB6B8 /* Security.framework in Frameworks */,
+				7A6FCE4F199FD620002CB6B8 /* QuartzCore.framework in Frameworks */,
+				7A6FCE4D199FD619002CB6B8 /* MobileCoreServices.framework in Frameworks */,
+				7A6FCE4B199FD613002CB6B8 /* libz.dylib in Frameworks */,
+				7A6FCE49199FD607002CB6B8 /* CoreLocation.framework in Frameworks */,
+				7A6FCE47199FD600002CB6B8 /* CoreGraphics.framework in Frameworks */,
+				7A6FCE45199FD5FA002CB6B8 /* CFNetwork.framework in Frameworks */,
+				7A6FCE43199FD5F2002CB6B8 /* AudioToolbox.framework in Frameworks */,
+				7A6FCE41199FD5D5002CB6B8 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +102,7 @@
 		7A6FCE12199FD4C2002CB6B8 = {
 			isa = PBXGroup;
 			children = (
+				7A6FCE59199FD96D002CB6B8 /* Frameworks */,
 				7A6FCE1D199FD4C2002CB6B8 /* Symba-Parse */,
 				7A6FCE33199FD4C2002CB6B8 /* Symba-ParseTests */,
 				7A6FCE1C199FD4C2002CB6B8 /* Products */,
@@ -77,12 +121,14 @@
 		7A6FCE1D199FD4C2002CB6B8 /* Symba-Parse */ = {
 			isa = PBXGroup;
 			children = (
+				7A6FCE5B199FD99F002CB6B8 /* Models */,
+				7A6FCE5A199FD994002CB6B8 /* Controllers */,
 				7A6FCE20199FD4C2002CB6B8 /* AppDelegate.swift */,
-				7A6FCE25199FD4C2002CB6B8 /* ViewController.swift */,
 				7A6FCE27199FD4C2002CB6B8 /* Main.storyboard */,
 				7A6FCE2A199FD4C2002CB6B8 /* Images.xcassets */,
 				7A6FCE22199FD4C2002CB6B8 /* Symba_Parse.xcdatamodeld */,
 				7A6FCE1E199FD4C2002CB6B8 /* Supporting Files */,
+				7A6FCE56199FD6A8002CB6B8 /* Symba-Parse-Bridging-Header.h */,
 			);
 			path = "Symba-Parse";
 			sourceTree = "<group>";
@@ -110,6 +156,43 @@
 				7A6FCE35199FD4C2002CB6B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A6FCE59199FD96D002CB6B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6FCE5D199FDCEB002CB6B8 /* FacebookSDK.framework */,
+				7A6FCE54199FD63B002CB6B8 /* SystemConfiguration.framework */,
+				7A6FCE52199FD62C002CB6B8 /* StoreKit.framework */,
+				7A6FCE50199FD625002CB6B8 /* Security.framework */,
+				7A6FCE4E199FD620002CB6B8 /* QuartzCore.framework */,
+				7A6FCE4C199FD619002CB6B8 /* MobileCoreServices.framework */,
+				7A6FCE4A199FD613002CB6B8 /* libz.dylib */,
+				7A6FCE48199FD607002CB6B8 /* CoreLocation.framework */,
+				7A6FCE46199FD600002CB6B8 /* CoreGraphics.framework */,
+				7A6FCE44199FD5FA002CB6B8 /* CFNetwork.framework */,
+				7A6FCE42199FD5F2002CB6B8 /* AudioToolbox.framework */,
+				7A6FCE40199FD5D5002CB6B8 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A6FCE5A199FD994002CB6B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A6FCE25199FD4C2002CB6B8 /* ViewController.swift */,
+				7A6FCE5F199FEB19002CB6B8 /* ChatsViewController.swift */,
+				7A6FCE61199FF0ED002CB6B8 /* ChatViewController.swift */,
+				7A6FCE63199FF10F002CB6B8 /* ContactsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7A6FCE5B199FD99F002CB6B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +296,10 @@
 			files = (
 				7A6FCE26199FD4C2002CB6B8 /* ViewController.swift in Sources */,
 				7A6FCE24199FD4C2002CB6B8 /* Symba_Parse.xcdatamodeld in Sources */,
+				7A6FCE60199FEB19002CB6B8 /* ChatsViewController.swift in Sources */,
+				7A6FCE62199FF0ED002CB6B8 /* ChatViewController.swift in Sources */,
 				7A6FCE21199FD4C2002CB6B8 /* AppDelegate.swift in Sources */,
+				7A6FCE64199FF10F002CB6B8 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,9 +415,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/johndoty/Desktop/Swift/SDKs,
+					/Users/johndoty/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "Symba-Parse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Symba-Parse/Symba-Parse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,9 +435,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/johndoty/Desktop/Swift/SDKs,
+					/Users/johndoty/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "Symba-Parse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Symba-Parse/Symba-Parse-Bridging-Header.h";
 			};
 			name = Release;
 		};
